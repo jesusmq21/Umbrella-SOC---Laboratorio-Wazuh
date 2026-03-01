@@ -72,7 +72,7 @@ https://<IP_DE_LA_VM>:443
 
 Si hay entorno gráfico, se abre automáticamente en el navegador.
 
-
+---
 ##⚙️ Comandos útiles
 
  Verificar servicios
@@ -83,7 +83,7 @@ ss -tulnp | grep 443
 
  Revisar script
 cat /usr/local/bin/umbrella
-
+---
 📜 Autor
 
 Jesús Eduardo Machuca Quintero
