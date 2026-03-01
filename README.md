@@ -12,17 +12,6 @@ y abre el Dashboard en el navegador de manera automática.
 Con un solo comando (`iniciar umbrella`), tu laboratorio queda **100% operativo**, incluyendo verificación de servicios y puertos.
 
 ---
-
-## 📂 Estructura del repositorio
-
-Umbrella-SOC/
-├── README.md
-├── umbrella # Script de inicio
-└── capturas/
-├── script_ejecucion.png
-├── dashboard.png
-└── puerto_443.png
-
 ## 📌 Requisitos
 
 - Ubuntu 22.04 o similar  
@@ -85,13 +74,13 @@ Si hay entorno gráfico, se abre automáticamente en el navegador.
 
 
 ⚙️ Comandos útiles
-# Verificar servicios
+ Verificar servicios
 systemctl status wazuh-manager wazuh-indexer wazuh-dashboard
 
-# Verificar puertos
+ Verificar puertos
 ss -tulnp | grep 443
 
-# Revisar script
+ Revisar script
 cat /usr/local/bin/umbrella
 
 📜 Autor
