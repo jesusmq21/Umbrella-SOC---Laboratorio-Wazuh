@@ -73,7 +73,8 @@ https://<IP_DE_LA_VM>:443
 Si hay entorno gráfico, se abre automáticamente en el navegador.
 
 
-⚙️ Comandos útiles
+#⚙️ Comandos útiles
+
  Verificar servicios
 systemctl status wazuh-manager wazuh-indexer wazuh-dashboard
 
